@@ -1,0 +1,61 @@
+/* Full-page container for login */
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: calc(100vh - 50px); /* Full height minus the header */
+    background-color: #f9f9f9;
+    position: relative;
+    top: -50px; /* Adjusts position upwards */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Login form styles */
+.login-form {
+    width: 100%;
+    max-width: 500px; /* Wider form box */
+    padding: 40px; /* Add padding to prevent entries from reaching edges */
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box; /* Ensures padding doesn't overflow */
+}
+
+/* Form group */
+.form-group {
+    margin-bottom: 20px; /* Space between fields */
+}
+
+/* Input fields */
+input {
+    width: 100%;
+    padding: 12px 15px; /* Adequate padding for inputs */
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Prevents overflow */
+}
+
+/* Submit button */
+button {
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    color: white;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.page-container {
+    margin-top: 60px; /* Adjust based on the navbar height */
+    padding: 20px;
+}

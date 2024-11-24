@@ -1,0 +1,87 @@
+.dashboard-container {
+    padding: 20px; 
+}
+
+.dashboard-heading {
+    text-align: center; /* Center-aligns only the heading */
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.dashboard-container h1 {
+    margin-bottom: 20px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.dashboard-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.employee-details-form {
+    width: 60%;  /* Form takes 60% of the width */
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.employee-photo {
+    width: 35%;  /* Photograph takes 35% of the width */
+    text-align: center;
+}
+
+.employee-photo img {
+    max-width: 100%;
+    border-radius: 8px;
+    height: auto;
+}
+
+.button-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between; /* Space buttons across the container */
+    gap: 20px; /* Add space between buttons */
+    width: 100%;
+    max-width: 500px; /* Keep the buttons centered and within a certain width */
+    margin: 20px auto;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.page-container {
+    margin-top: 60px; /* Adjust based on the navbar height */
+    padding: 20px;
+}
